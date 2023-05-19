@@ -65,6 +65,7 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           title: Text('TO DO'),
           elevation: 0,
+          centerTitle: true,
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: createNewTask,
